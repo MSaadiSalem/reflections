@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Yep very much.
+    Using fc command in windows stands for Files Compare or diff stand for Differance between files.
+    These commands give us conculasion about all the differances between files
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    git log command lists all commits and its serial number with a short brief. git diff commit number and other gives us the changes maded for a single file.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    A good rule of thumb is to make one commit per logical change. For example,
+    if you fixed a typo, then fixed a bug in a separate part of the file, you
+    should use one commit for each change since they are logically separate.
+    If you do this, each commit will have one purpose that can be easily understood.
+    Git allows you to write a short message explaining what was changed in each commit,
+    and that message will be more useful if each commit has a single logical change.
+
+    Manually choosing allows me to decide when I can commit the file when it has
+    the desired changes unlike automatically.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    It saves time and avoids confusion..
+
+    When editing code into multiple files, you might make changes in one that has a reflection in aother ones. So you would want to track them together.
+
+    When editing photos, you might want to track multiple files together if, for example, you wanted to track changes to the photoshop file along with the actual photo. But if you were only tracking the photos themselves, and the photos were unrelated, you would want to track them separately.
+
+    Different chapters of a novel might be fairly independent, so it’s possible you would want to track them separately. But what if you wanted to make sure the transitions between chapters were smooth? Or what if you wanted to rename a character?
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Ofcourse the is a way how to return to a previous version of your files using Git, it makes me more confideen to make changes that could break something.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to see the effects that I have done.
