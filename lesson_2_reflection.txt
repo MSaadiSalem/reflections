@@ -4,6 +4,7 @@ After initialization a repository, a .git folder was created.
 
 I need to do it to track the changes will be in the project files.
 
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
@@ -19,10 +20,23 @@ do one commit per that logical change.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Situations like trying to add new feature or make new experiment.
+Branches would be useful in that situations to feel free to change whatever I want
+without affecting the master branch.
+
 How do the diagrams help you visualize the branch structure?
+
+Cause of the diagrams represents the parent of each commits till the end of its tail.
+The diagrams help me in uderstanding the structure of all branches and its authors.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches together makes the checkout branch in the tip of the two branches having all the commits before from its original path and the other merged branch.
+We represent it in the diagram to understand the commit path cause it isn't linear like before creating the other merged branch.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Automatic merging can't resolve the merge conflict when more than one person deal with the project.
+but if one person develops a project the automatic merging might be more helpful.
